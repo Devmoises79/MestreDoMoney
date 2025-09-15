@@ -6,11 +6,11 @@ import math
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 # -------------------- Boas-vindas --------------------
-print("🌟 Bem-vindo(a) ao Simulador Financeiro Gamificado! 🌟\n")
+print(" Bem-vindo(a) ao Simulador Financeiro Gamificado! \n")
 print("Aqui você vai explorar sua jornada financeira de forma divertida e educativa.")
 print("Você poderá calcular investimentos, planejar sua aposentadoria e simular ações,")
 print("enquanto acumula pontos e evolui de nível conforme aprende e pratica.\n")
-print("💡 Dica: faça escolhas conscientes, acompanhe seu patrimônio e veja seu progresso!")
+print(" Dica: faça escolhas conscientes, acompanhe seu patrimônio e veja seu progresso!")
 print("Vamos começar essa jornada?\n")
 
 # -------------------- Funções de leitura --------------------
@@ -63,7 +63,7 @@ def adicionar_pontos(valor):
         nivel = "Investidor em Treinamento"
     elif pontos >= 10:
         nivel = "Planejador"
-    print(f"🎯 Pontos ganhos: {valor}. Total: {pontos} | Nível atual: {nivel}")
+    print(f" Pontos ganhos: {valor}. Total: {pontos} | Nível atual: {nivel}")
 
 # -------------------- Função para resumo --------------------
 def mostrar_resumo():
@@ -82,7 +82,7 @@ def mostrar_resumo():
 
 # -------------------- Menu --------------------
 while True:
-    print("\n📈 Simulador Financeiro com Gráficos")
+    print("\n Simulador Financeiro com Gráficos")
     print("1 - Calcular valor acumulado até aposentadoria")
     print("2 - Calcular capital necessário para saques após aposentadoria")
     print("3 - Calcular patrimônio necessário para receber X por mês até certa idade limite")
